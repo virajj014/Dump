@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navigation {
+        /* display: flex; */
+        background-color: black;
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        float: right;
+        margin-right: 10px;
+    }
+
+    #logo {
+
+        height: 35px;
+        padding: 10px;
+    }
+
+    .navbar li {
+        list-style: none;
+        color: white;
+    }
+
+    .greybg {
+        background-color: grey;
+        border-radius: 5px;
+        margin-left: 10px;
+        padding: 10px;
+
+    }
+
+    .redbg {
+        background-color: rgb(211, 63, 63);
+        border-radius: 5px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .heartlogo {
+        height: 50px;
+    }
+</style>
+<body>
+    <div class="navigation">
+        <img src="logo.png" alt="logo" id="logo">
+        <ul class="navbar">
+            <li><img src="heart.png" alt="heart" class="heartlogo"></li>
+            <li class="greybg">View in Editor</li>
+            <li class="redbg">Sign Up</li>
+            <li class="greybg">Log In</li>
+        </ul>
+    </div>
+</body>
+</html>
